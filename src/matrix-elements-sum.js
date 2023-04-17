@@ -22,9 +22,9 @@ console.log (matrix.length)
 
 	for(let i = 0; i < matrix.length; i++){
 		console.log (summa)
-		for(let k = 0; j < matrix[i].length; k++){
+		for(let k = 0; k < matrix[i].length; k++){
 			
-		  if(i === 0 || matrix[i-1][j] !== 0) {
+		  if(i === 0 || matrix[i-1][k] !== 0) {
 			
 			console.log ('matrix', matrix[i][k])
 			 summa += matrix[i][k];

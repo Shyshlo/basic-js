@@ -13,7 +13,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function sortByHeight(arr) {
 	
-	let arr1 = [];
+	let array2 = [];
 
 	for (i = 0; i < arr.length; i++) {
 		if (arr[i] !== -1) {
